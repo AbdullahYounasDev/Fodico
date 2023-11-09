@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Itim&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
+/* Custom Classes */
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 70px;
+}
+.h2-fs60 {
+  font-size: 50px;
+}
+.h2-fs60::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  border-radius: 20px;
+}
+h3 {
+  font-size: 40px;
+}
+h5 {
+  font-size: 48px;
+}
+.p-fs32 {
+  font-size: 32px;
+}
+.p-fs24 {
+  font-size: 24px;
+}
+.p-fs20 {
+  font-size: 20px;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.itim {
+  font-family: "Itim", cursive;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.text-orange {
+  color: #ff8a00;
+}
+.bg-orange {
+  background-color: #ff8a00;
+}
+button {
+  background-color: #dc3836;
+  box-shadow: 0 0 6px #dc3836;
+  font-size: 32px;
+  transition: 0.4s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+}
+/* For Nav-Bar */
+.nav-link:hover {
+  color: #dc3836 !important;
+  transition: 0.4s ease-in-out;
+  transform-origin: left;
+  transform: scale(1.1);
+}
+.nav-line {
+  width: 6px;
+  height: 23px;
+  background: black;
+}
+/* Hero Sec */
+.hero-cont {
+  background-image: url("/Images/hand-drawn-minimalist-japanese-house-logo-in-flat-style-png\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* second sec */
+.sec-img {
+  rotate: -90deg;
+}
+/* Third Sec */
+.third-sub-sec {
+  background-image: url("/Images/hand-drawn-minimalist-japanese-house-logo-in-flat-style-png\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.second-sec-last-img {
+  top: -65px;
+  right: -337px !important;
+}
+/* Fourth Section */
+.star-img {
+  position: relative;
+  bottom: 8px;
+  left: -3px;
+}
+.fourth-sec-img {
+  left: -105px;
+  top: -7px;
+}
+/* Fifth Section */
+.fifth-sub-sec {
+  background-image: url("/Images/hand-drawn-minimalist-japanese-house-logo-in-flat-style-png\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fifth-sec-first-img {
+  left: -139px;
+  top: -180px;
+}
+.fifth-sec-second-img {
+  right: -30px;
+  top: -152px;
+}

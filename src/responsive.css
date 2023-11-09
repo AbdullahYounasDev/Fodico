@@ -1,0 +1,25 @@
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  .h2-fs60 {
+    font-size: 50px;
+  }
+  .navbar-brand {
+    width: 150px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .p-fs24 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1255px) {
+  .line-2 {
+    display: none !important;
+  }
+}
